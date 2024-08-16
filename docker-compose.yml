@@ -1,0 +1,9 @@
+services:
+  server:
+    image: nginx:alpine
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/data/www
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
