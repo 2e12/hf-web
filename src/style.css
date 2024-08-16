@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+    display: unset;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    background: aquamarine;
+    font-family: monospace;
+}
+
+nav a {
+    padding: 14px;
+    display: inline-block;
+}
+
+h1, h2, h3, p {
+    padding:20px;
+}
+
+.footer {
+    margin-top: 40px;
+    background: darkblue;
+    color: white;
+}
